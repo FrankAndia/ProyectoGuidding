@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -12,9 +13,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     EditText edt_Password_Login;
     Button btnIngresar;
     Button btnRegistrar;
+    ImageView imgLogo;
 
 
     void init(){
+        imgLogo = (ImageView) findViewById(R.id.imageView2);
         edt_Usuario_Login = (EditText)findViewById(R.id.edt_Usuario_Login);
         edt_Password_Login = (EditText)findViewById(R.id.edt_Password_Login);
         btnIngresar = (Button)findViewById(R.id.btnIngresar);
