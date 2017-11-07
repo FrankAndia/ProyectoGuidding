@@ -32,6 +32,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-        
+        if(view == btnIngresar){
+
+        }else if(view == btnRegistrar){
+
+        }
     }
 }
